@@ -18,7 +18,7 @@ const Button = ({title,type, margin,disabled,loading,onPress,...props}:ButtonPro
 
   const renderText = (color:string) => (
     <>
-     <Text type={textTypes.BUTTON_BOLD} color={color}>{title}</Text>
+     <Text type={textTypes.BUTTON_SEMIBOLD} color={color}>{title}</Text>
       {loading && <C.ActivityIndicatorButton size='small' color={theme.colors.NEUTRAL_THEME.white}/>}
     </>
   )
