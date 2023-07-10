@@ -6,6 +6,7 @@ import Button from '../../../shered/components/button/Button'
 import Text from '../../../shered/components/text/Text'
 import { textTypes } from '../../../shered/components/text/textTypes'
 import { theme } from '../../../shered/components/themes/theme/theme'
+import { Icon } from '../../../shered/components/icon/Icon'
 
 
 const Login = () => {
@@ -15,7 +16,7 @@ const Login = () => {
 
   return (
     <C.ContainerLogin behavior={Platform.OS === 'ios' ? 'padding' : 'height'}>
-      <Text type={textTypes.SUB_TITLE_BOLD}  color='#000'>Login</Text>
+      <Icon name='home3' color="blue" size={44}/>
       <Input placeholder='Digite seu Email' title='Email'/>
       <Button disabled={false} loading={false} type={theme.buttons.BUTTONS_THEMES.primary} margin='8px' title='ENTRAR' onPress={handleOnPress}/>
     </C.ContainerLogin>
