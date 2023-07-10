@@ -4,6 +4,7 @@ export const GRAY_THEME = {
 }
 
 export const NEUTRAL_THEME = {
+  black:'#000',
   white: '#fff'
 }
 
