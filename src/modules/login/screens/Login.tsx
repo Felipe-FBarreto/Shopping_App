@@ -18,6 +18,7 @@ const Login = () => {
     <C.ContainerLogin behavior={Platform.OS === 'ios' ? 'padding' : 'height'}>
       <Icon name='home3' color="blue" size={44}/>
       <Input placeholder='Digite seu Email' title='Email'/>
+      <Input secureTextEntry placeholder='Digite sua senha' title='Senha'/>
       <Button disabled={false} loading={false} type={theme.buttons.BUTTONS_THEMES.primary} margin='8px' title='ENTRAR' onPress={handleOnPress}/>
     </C.ContainerLogin>
   )
