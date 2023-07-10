@@ -19,3 +19,8 @@ export const PINK_THEME = {
 export const PURPLE_THEME = {
   purple80: '#512c85'
 }
+
+
+export const ORANGE_THEME = {
+  orange80: '#E7774D'
+}

@@ -16,7 +16,7 @@ const Login = () => {
   return (
     <C.ContainerLogin behavior={Platform.OS === 'ios' ? 'padding' : 'height'}>
       <Text type={textTypes.SUB_TITLE_BOLD}  color='#000'>Login</Text>
-      <Input placeholder='Digite seu Email' title='Email' />
+      <Input placeholder='Digite seu Email' title='Email'/>
       <Button disabled={false} loading={false} type={theme.buttons.BUTTONS_THEMES.primary} margin='8px' title='ENTRAR' onPress={handleOnPress}/>
     </C.ContainerLogin>
   )
